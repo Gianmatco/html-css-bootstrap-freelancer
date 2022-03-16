@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <title>es. freelancer</title>
 </head>
 <body>
     <!--header-->
-    <header >
-        <div class="row p-3 mb-2 bg-success text-white">
-
-            <div class="d-flex justify-content-center ">
-                <img src="img/avatar.svg" class=" img-thumbnail figure-img img-fluid rounded w-25" alt="...">
+    <header class="cs-bg-blue">
+        <nav class="navbar navbar-expand-md navbar-dark  ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Start Boostrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+               
+              </div>
             </div>
-            <div class="d-flex justify-content-center ">
-                <p class="fs-1 text-center ">START BOOSTRAP</p>
-            </div>
-            <div class="d-flex justify-content-center ">
-                <p class="fs-4 text-center ">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-            </div>
-           
-        </div>
+          </nav>
+        
         
 
 
@@ -32,49 +45,81 @@
 
     <!--main-->
     <main>
-        <div class="d-flex justify-content-center ">
-            <p class="fs-1 text-center ">PORTAFOGLIO</p>
-        </div>
-        <div>
-            <span class="width-40px border-secondary"></span>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="row justify-content-center gap-5">
-            <div class="col-3 card">
-              <img src="img/cabin.png" alt="">
+        <section id="jumbotron" class="cs-bg-green text-uppercase">
+            <img src="img/avatar.svg" alt="avatar">
+            <h1>Start Booster</h1>
+            <div class="cs-star-wrapper">
+                <i class="fas fa-star"></i>
             </div>
-            <div class="col-3 card">
-              <img src="img/cake.png" alt="">
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+        </section>
+        <section id="portfolio" class="text-uppercase">
+           <div class="container">
+                <h2>Portfolio</h2>
+                <div class="cs-star-wrapper cs-dark">
+                   <i class="fas fa-star"></i>
+                </div>
+           
+                <div class="row gy-3">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <div class="cs-layover">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <img src="img/cake.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <img src="img/circus.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <img src="img/game.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <img src="img/safe.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="img-wrapper">
+                            <img src="img/submarine.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>   
+
             </div>
-            <div class="col-3 card">
-                <img src="img/circus.png" alt="">
+        </section>
+        <section id="about" class="text-uppercase cs-bg-green">
+            <div class="cs-wrapper">
+                <div class="container-fluid">
+                    <h2>About</h2>
+                    <div class="cs-star-wrapper">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloribus magni rem nemo, recusandae optio provident ut dolores officiis ratione libero cumque nam neque, at exercitationem cupiditate nihil culpa vero!</div>
+                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut sint excepturi eius id fugit cumque fuga porro, praesentium similique ipsam! Ipsa odio in vel eveniet magnam maxime totam quaerat!</div>
+                </div>
             </div>
+           
+           
+        </section>
+        <section id="contact" class="text-uppercase">
+            <div class="cs-star-wrapper cs-dark">
+                <i class="fas fa-star"></i>
+             </div>
+        </section>
        
-            <div class="col-3 card">
-              <img src="img/game.png" alt="">
-            </div>
-            <div class="col-3 card">
-              <img src="img/safe.png" alt="">
-            </div>
-            <div class="col-3 card">
-                <img src="img/submarine.png" alt="">
-            </div>
-        </div>
-        <div class="row justify-content-center ">
-            <p class="fs-1 text-center ">ABOUT</p>
-            <div class="col-5">
-                <p class="fs-6 "> Freelancer is a free boostrap theme created by Start Boostrap. The dowload includes the complete soource files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.</p>
-                
-
-
-            </div>
-            <div class="col-5">
-                <p class="fs-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect starting point!</p>
-            </div>
-            
-
-        </div>
      
         
 
@@ -83,6 +128,9 @@
 
     <!--footer-->
     <footer>
+        <div class="footer-top"></div>
+        <div class="footer-bottom cs-bg-"></div>
+
 
     </footer>
      <!--footer-->
